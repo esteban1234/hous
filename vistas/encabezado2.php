@@ -11,7 +11,8 @@
   	<META name="Description" content=""/>
   	<META NAME="Keywords" CONTENT=""/>
   	<link rel="stylesheet" href="../css/bootstrap.css">
-  	<!-- <link rel="stylesheet" href="../css/iconos.min.css"> -->
+  	<link rel="stylesheet" href="../css/animate.css">
+  	<link rel="stylesheet" href="../css/tabla.css">
   	<!-- <link rel="stylesheet" href="../css/fontawesome-all.css"> -->
 	<link rel="stylesheet" href="../css/estilos.css">
 	<link rel="stylesheet" href="../css/responsivo.css">

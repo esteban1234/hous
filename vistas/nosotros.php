@@ -1,127 +1,119 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-  <div id="capa1"></div>
-<div class="openclose">
-      <i class="fa fa-bars open" aria-hidden="true"></i>
-  </div>  
-<div class="contenlogo pull-left">
-    <figure class="logo">
-       <img src="../img/solisur.png" alt="SOLISUR" class="img-responsive"> 
-      </figure>
-  </div>
-
-  <div class="pull-right contenmenu">
-    <div class="uno">
-      <a class="navega" href=""><i class="fab fa-facebook-f"></i></a>
-      <a class="navega" href=""><i class="fab fa-twitter"></i></a>
-      <a class="navega" href=""><i class="fab fa-google-plus-g"></i></a>
-      <a class="navega" href=""><i class="fas fa-at"></i></a>
-      <a class="navega" href=""><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="dos">
-      <nav>
+  
+  <div class="bannern">
+  <div class="fondon">
+    <div class="content">
+      <nav class="pull-left animated bounceInLeft">
         <ul>
           <a class="selector" href="../index.php">INICIO</a>
           <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
-          <a class="selector" href="servicios.php">SERVICIOS</a>
+          <a class="selector" href="servicios.php">PRODUCTOS</a>
           <a class="selector" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
+      
+      <figure class="logo pull-right animated bounceInRight">
+        <img src="../img/hous.png" class="img-responsive" alt="HOUS">
+      </figure>
+    </div>
+
+    <h1 class="animated bounceInUp">Adquiere lo más moderno en electrodomésticos y línea blanca
+
+</h1>
+     <div class="boton animated infinite pulse">
+      <a href="contacto.php" class="btn btn-warning btn-outline btn-lg">CONTACTANOS</a>
     </div>
   </div>
-
-  <div class="bannern">
-    <div class="fondon">
-      <h1>SOMOS UN DESPACHO DE ABOGADOS CON AMPLIA EXPERIENCIA</h1>
-      <!-- <p>EL EQUIPO DE ABOGADOS QUE SÍ LO RESPALDA</p> -->
-      <div class="boton ">
-      <a href="contacto.php" class="btn btn-danger btn-outline btn-lg">SOLICITAR INFORMACION</a>
-  </div>
-    </div>
-  </div>
-
-  <div class="container" style="padding: 5% 0%;">
-<div class = "row">
-    <div class = "col-sm-4 col-md-4">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="glyphicon glyphicon-user"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">Atención personalizada</h2>
-        <p class="card-block text-center">SERIEDAD ABSOLUTA</p>
-        </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
-
-    <div class = "col-sm-4 col-md-4">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-balance-scale"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">Obtenemos resultados</h2>
-        <p class="card-block text-center">ABOGADOS EXPERIMENTADOS</p>
-        </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
-
-    <div class = "col-sm-4 col-md-4">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-shield-alt"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">Protegemos tus Derechos</h2>
-        <p class="card-block text-center">TU FAMILIA Y TU PATRIMONIO</p>
-        </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
-</div>
-  
 </div>
 
-<div class="section" style="padding: 5% 0%; background: #e4e4e4;">
-    <div class="container" >
-     <div class="row">
-       <h1 class="text-center" style="color: #4F0F10;">La Firma</h1> <br class="delete-br"> <br class="delete-br">
-       <p class="text-center texto" >
+<div class="section" style="padding: 5% 0%; background: #919296;" >
+    <div class="container">
+      <section class="bienvenidos"> 
+        <h2 style="color: #fff;">¿Quiénes Somos?</h2>
+        <hr class="none">
+        <h3 style="color: #fff;">Somos una tienda con presencia dedicada al Comercio al por mayor de electrodomésticos y aparatos de línea blanca, trabajando con miles de vendedores nacionales e internacionales. Queremos hacer tu vida más sencilla, tú solo preocúpate por comprar y nosotros nos encargamos de lo demás.</h3>
+      </section>
+    </div> 
+</div>
 
-        Ofrecemos servicios jurídicos de excelencia en defensa legal (litigio), asesoría y consultoría jurídica, elaboración de contratos nacionales o internacionales, gestiones ante distintas dependencias de gobierno, mecanismos alternativos de solución de controversias, procedimientos concursales, migratorios, de propiedad industrial, entre otros.
-</p>
-
-<!-- <div class="boton ">
-      <a href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg">SOLICITAR INFORMACION</a>
-  </div> -->
-     </div>
-   </div>
- </div>
-
- <div class="section" style="padding: 5% 0%;">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <img src="../img/derecho.jpg" class="img-responsive img-res">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <!-- <h1>A title</h1> -->
-            <!-- <h3>A subtitle</h3> -->
-            <p class="texto2"><b>Misión:</b> Contribuir al desarrollo de nuestra empresa en beneficio de nuestros clientes, adaptándonos a las innovaciones en el mercado e ir por el camino de la creación de más y mejores empresas, al apoyar las iniciativas de emprendedores para crear nuevos negocios. <br><br>
-            
-            <b>Visión:</b> Convertirnos en un referente de consultoría acompañando el proceso de transformación de las empresas a la nueva economía, tanto en la creación de formas innovadoras de comunicarse con sus clientes como en mejorar la dinámica de sus procesos operacionales. <br><br>
-
-            </p>
-            <div class="boton ">
-      <a href="contacto.php" class="btn btn-warning btn-outline btn-lg">SOLICITAR INFORMACION</a>
-  </div>
-          </div>
-        </div>
-
+<div class="section" style="padding: 5% 0%;" >
+    <div class="container">
+      <section class="bienvenidos"> 
+        <h2 style="color: #000;">¿Qué tenemos para ti?</h2>
+        <hr class="none"> <br><br>
         
-      </div>
-    </div>
+        <div class="row">
+          <div class="col-md-3 ">
+            <div class="imge ">
+              <img src="../img/truck.png" class="img-responsive">
+            </div>
+            <h2 class="text-center">RAPIDEZ</h2>
+            <p class="text-center">Corremos para entregar tu pedido.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="imge ">
+              <img src="../img/delivery-man.png" class="img-responsive">
+            </div>
+            <h2 class="text-center">DEVOLUCIONES</h2>
+            <p class="text-center">Devuélvelo fácil y gratis.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="imge ">
+              <img src="../img/online-support.png" class="img-responsive">
+            </div>
+            <h2 class="text-center">ACOMPAÑAMIENTO</h2>
+            <p class="text-center">Atención al cliente y notificaciones disponibles en todo el proceso de compra.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="imge ">
+              <img src="../img/shield.png" class="img-responsive">
+            </div>
+            <h2 class="text-center">SEGURIDAD</h2>
+            <p class="text-center">Tus compras 100% protegidas.</p>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-3 col-md-offset-5">
+            <div class="imge ">
+              <img src="../img/gift-card.png" class="img-responsive">
+            </div>
+            <h2 class="text-center">MÉTODOS DE PAGO</h2>
+            <p class="text-center">Tenemos distitntas formas de pago, desde tarjetas de débito o crédito hasta pago en efectivo.</p>
+          </div>          
+        </div>
+      </section>
+    </div> 
+</div>
+
+<div class="section" style="padding: 5% 0%;background: #919296;" >
+<div class="container">
+  <div class="row">
+    <h1 class="mvv" style="color: #fff;">Misión</h1>
+    <p class="text-mision" style="color: #fff;">Ser la mejor empresa comercializadora de aparatos electrodomésticos y artículos para el hogar (linea blanca) que satisfaga las necesidades y expectativas de los clientes en el mercado nacional y de exportación. Con un equipo humano capaz, innovador y realizado, logrando una rentabilidad en un ambiente de competencia internacional que asegure la permanencia y el crecimiento de la empresa, garantice una retribución adecuada a nuestros colaboradores y accionistas, cumpliendo con la responsabilidad social y ecológica que nos corresponde.
+    </p>
+    
+    <h1 class="mvv" style="color: #fff;">Visión</h1>
+    <p class="text-mision" style="color: #fff;">Desarrollar altos niveles en servicio, calidad y con tecnología de punta, asociada a la responsabilidad y el compromiso, que nos permita permanecer como la principal opción de compra para nuestros clientes, así como también nos ubicara como el primer distribuidor de electrodomésticos y aparatos de línea blanca mayorista a nivel nacional para finalmente captar nuevos clientes y abarcar mas zonas en todo el país.
+    </p>
+    
+    <h1 class="mvv" style="color: #fff;">Valores</h1>
+    <p class="text-mision" style="color: #fff;">Confiabilidad: valoramos la honestidad, la integridad, la lealtad y nuestra capacidad de cumplir lo prometido. <br><br>
+    
+    Humanismo: estamos comprometidos con una conducta ética y solidaria con el desarrollo de todos los sectores de la sociedad.<br><br>
+    
+    Responsabilidad: nuestras acciones repercuten en nuestro entorno, somos responsables de lo que hacemos y la responsabilidad exige de nosotros la excelencia.
+    </p>
+  </div>
+  <div class="boton animated infinite pulse">
+      <a href="contacto.php" class="btn btn-warning btn-outline btn-lg">CONTACTANOS</a>
+    </div>
+</div>
+
+
+</div>
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
