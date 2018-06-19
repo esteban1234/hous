@@ -38,28 +38,28 @@
         <div class="row">
           <div class="col-md-3 ">
             <div class="imge ">
-              <img src="../img/truck.png" class="img-responsive">
+              <img src="../img/blender.png" class="img-responsive">
             </div>
             <h2 class="text-center">Licuadoras</h2>
             <!-- <p class="text-center">Corremos para entregar tu pedido.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/delivery-man.png" class="img-responsive">
+              <img src="../img/washing-machine2.png" class="img-responsive">
             </div>
             <h2 class="text-center">Lavadoras</h2>
             <!-- <p class="text-center">Devuélvelo fácil y gratis.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/online-support.png" class="img-responsive">
+              <img src="../img/fan.png" class="img-responsive">
             </div>
             <h2 class="text-center">Ventiladores</h2>
             <!-- <p class="text-center">Atención al cliente y notificaciones disponibles en todo el proceso de compra.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/shield.png" class="img-responsive">
+              <img src="../img/stove.png" class="img-responsive">
             </div>
             <h2 class="text-center">Estufas</h2>
             <!-- <p class="text-center">Tus compras 100% protegidas.</p> -->
@@ -69,28 +69,28 @@
         <div class="row">
           <div class="col-md-3 ">
             <div class="imge ">
-              <img src="../img/truck.png" class="img-responsive">
+              <img src="../img/vacuum-cleaner2.png" class="img-responsive">
             </div>
             <h2 class="text-center">Aspiradoras</h2>
             <!-- <p class="text-center">Corremos para entregar tu pedido.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/delivery-man.png" class="img-responsive">
+              <img src="../img/microwave-oven.png" class="img-responsive">
             </div>
             <h2 class="text-center">Microondas</h2>
             <!-- <p class="text-center">Devuélvelo fácil y gratis.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/online-support.png" class="img-responsive">
+              <img src="../img/iron.png" class="img-responsive">
             </div>
             <h2 class="text-center">Planchas</h2>
             <!-- <p class="text-center">Atención al cliente y notificaciones disponibles en todo el proceso de compra.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/shield.png" class="img-responsive">
+              <img src="../img/toaster.png" class="img-responsive">
             </div>
             <h2 class="text-center">Tostadoras</h2>
             <!-- <p class="text-center">Tus compras 100% protegidas.</p> -->
@@ -100,28 +100,28 @@
         <div class="row">
           <div class="col-md-3 ">
             <div class="imge ">
-              <img src="../img/truck.png" class="img-responsive">
+              <img src="../img/sandwich-maker.png" class="img-responsive">
             </div>
             <h2 class="text-center">Sandwicheras</h2>
             <!-- <p class="text-center">Corremos para entregar tu pedido.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/delivery-man.png" class="img-responsive">
+              <img src="../img/fridge.png" class="img-responsive">
             </div>
             <h2 class="text-center">Refrigeradores</h2>
             <!-- <p class="text-center">Devuélvelo fácil y gratis.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/online-support.png" class="img-responsive">
+              <img src="../img/dryer.png" class="img-responsive">
             </div>
             <h2 class="text-center">Secadoras</h2>
             <!-- <p class="text-center">Atención al cliente y notificaciones disponibles en todo el proceso de compra.</p> -->
           </div>
           <div class="col-md-3">
             <div class="imge ">
-              <img src="../img/shield.png" class="img-responsive">
+              <img src="../img/minibar.png" class="img-responsive">
             </div>
             <h2 class="text-center">Frigobar</h2>
             <!-- <p class="text-center">Tus compras 100% protegidas.</p> -->

@@ -1,151 +1,98 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
-<script>
-  var nav4 = window.Event ? true : false;
-  function aceptNum(evt){
-    var key = nav4 ? evt.which : evt.keyCode;
-    return (key <= 13 || (key>= 48 && key <= 57));
-}
-</script>
+
 <body>
-  <div id="capa1"></div>
-  <div class="openclose">
-      <i class="fa fa-bars open" aria-hidden="true"></i>
-  </div>  
-
-  <div class="contenlogo pull-left">
-    <figure class="logo">
-       <img src="../img/solisur.png" alt="SOLISUR" class="img-responsive"> 
-      </figure>
-  </div>
-
-  <div class="pull-right contenmenu">
-    <div class="uno">
-      <a class="navega" href=""><i class="fab fa-facebook-f"></i></a>
-      <a class="navega" href=""><i class="fab fa-twitter"></i></a>
-      <a class="navega" href=""><i class="fab fa-google-plus-g"></i></a>
-      <a class="navega" href=""><i class="fas fa-at"></i></a>
-      <a class="navega" href=""><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="dos">
-      <nav>
+ 
+ <div class="bannerc">
+  <div class="fondoc">
+    <div class="content">
+      <nav class="pull-left animated bounceInLeft">
         <ul>
           <a class="selector" href="../index.php">INICIO</a>
           <a class="selector" href="nosotros.php">NOSOTROS</a>
-          <a class="selector" href="servicios.php">SERVICIOS</a>
+          <a class="selector" href="servicios.php">PRODUCTOS</a>
           <a class="selector" id="select" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
+      
+      <figure class="logo pull-right animated bounceInRight">
+        <img src="../img/hous.png" class="img-responsive" alt="HOUS">
+      </figure>
     </div>
+
+    <h1 class="animated bounceInUp">Hemos renovado nuestro centro de Ayuda</h1>
+    <p class="animated bounceInUp">Podrás encontrar todas tus respuestas aquí</p>
+
   </div>
+</div>
 
-  <div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.1401390225212!2d-89.60369457083503!3d21.01024095106897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676c62417390b%3A0x799c11a4abfb3ce7!2s10-a+204%2C+Residencial+Col+Mexico%2C+97125+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1528842053275" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
+<section id="contact" class="content-section text-center" style="padding: 5% 0%;">
+        <div class="contact-section">
+            <div class="container">
+              <h2>Formulario de Contacto</h2>
+              <p>No te preocupes, en caso de no conseguir tu respuesta todavía podrás contactarnos</p> <br><br>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputName2">Nombre</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu nombre">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName2">Teléfono</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu teléfono">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Correo</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Escribe tu correo">
+                    </div>
+                    <div class="form-group ">
+                      <label for="exampleInputText">Comentario</label>
+                     <textarea  class="form-control" placeholder="Escribe tu comentario"></textarea> 
+                    </div>
+                    <button type="submit" class="btn btn-default">Enviar mensaje</button>
+                  </form>
 
-  <div class="container" style="padding: 5% 0%;">
-  <div class="col-m-12 text-center">
-    <h2 style="color: #4F0F10;">Formulario de Contacto</h2> <br><br>
-  </div>
-  <div class="col-sm-12 custom-box">
-      <div class="col-md-6 col-md-offset-3">
-       <div class="well form-well">
-        <div class="well form-well">
-          <legend class=" text-center" style="color: #4F0F10;">Contactanos</legend>
-          <form>
-            <div class="group">
-              <input required="" type="text" id="txtNOMBRE">
-              <span class="highlight"></span>
-              <span class="bar"></span>
-              <label>Nombre</label>
-            </div>
 
-            <div class="group">
-              <input required="" type="text" id="txtCORREO">
-              <span class="highlight"></span>
-              <span class="bar"></span>
-              <label>Correo</label>
-            </div>
-
-            <div class="group">
-              <input type="text" id="txtTELEFONO" onkeypress="return aceptNum(event)" maxlength="10" required="">
-              <span class="highlight"></span>
-              <span class="bar"></span>
-              <label>Teléfono</label>
-            </div>
-
-            <div class="group">
-              <textarea type="text" rows="5" required="" id="txtCOMENTARIO"></textarea>
-              <span class="highlight"></span>
-              <span class="bar"></span>
-              <label>Comentario</label>
-            </div>
-
-            <div id="_AJAX_PRE_"></div>
-            <div class="group">
-              <center> <button type="submit" class="btn btn-danger" onclick="sendCORREO()">Enviar <span class="glyphicon glyphicon-send"></span></button></center>
-            </div>
-          </form>
+                    
+                </div>
+              </div> <br><br>
+              <div class="section">
+                <h3>Datos de la empresa</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <h2 class="text-center">
+              <i class="fas fa-map-marker-alt fa-fw"></i> Dirección</h2>
+            <p class="text-center">C. Ixhuatan #292 MZ 4 LT.11. Col. Centenario Tuchtlan, Tuxtla Gutierrez, Chiapas. C.P. 29025.</p>
+          </div>
+          <div class="col-md-3">
+            <h2 class="text-center">
+              <i class="fas fa-phone fa-fw"></i> Teléfono</h2>
+            <p class="text-center">PENDIENTE</p>
+          </div>
+          <div class="col-md-3">
+            <h2 class="text-center">
+              <i class="far fa-envelope fa-fw"></i> Correo</h2>
+            <p class="text-center">info@comercializadorahous.com</p>
+          </div>
+          <div class="col-md-3">
+            <h2 class="text-center">
+              <i class="far fa-clock fa-fw"></i> Horario</h2>
+            <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
+          </div>
         </div>
-
       </div>
-    </div>
-  </div>
-</div>
 
-<div class="container" style="padding: 0% 0% 5% 0%;">
-<div class = "row">
-    <div class = "col-sm-6 col-md-3">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-map-marker-alt"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">DIRECCION</h2>
-        <p class="card-block text-center">C. 10A #203 POR 1H Y 0 COL. MEXICO NORTE, MERIDA, YUCATAN. C.P. 97128</p>
+            </div>
         </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
+      </section>
 
-    <div class = "col-sm-6 col-md-3">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="far fa-clock"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">HORARIO</h2>
-        <p class="card-block text-center">Lunes a Viernes de 9 am a 6 pm</p>
-        </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1910.0886066316236!2d-93.16756422825244!3d16.767856657521293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd96842ae9aa7%3A0x52829a31c183b64e!2sIxhuat%C3%A1n+292%2C+Centenario+Tuchtl%C3%A1n%2C+29025+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1529357244763" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
 
-    <div class = "col-sm-6 col-md-3">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-phone"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">TELEFONO</h2>
-        <p class="card-block text-center">PENDIENTE</p>
-        </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
-
-    <div class = "col-sm-6 col-md-3">
-        <div class="card-base">
-        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-envelope"></span></a>
-        <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">CORREO</h2>
-        <p class="card-block text-center">info@corporativosolisur.com</p>
-        </div>
-        </div>
-        <div class="space"></div>
-        </div>
-    </div>
-</div>
   
-</div>
-
+  
 	
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
