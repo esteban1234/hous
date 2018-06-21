@@ -5,8 +5,8 @@
   
 <div class="banner">
   <div class="fondo">
-    <div class="content">
-      <nav class="pull-left animated bounceInLeft">
+    <div class="content cont-mimg">
+      <nav class="pull-left animated bounceInLeft menu">
         <ul>
           <a class="selector" id="select" href="index.php">INICIO</a>
           <a class="selector" href="vistas/nosotros.php">NOSOTROS</a>
@@ -20,6 +20,10 @@
       </figure>
     </div>
 
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+    </div>  
+
     <h1 class="animated bounceInUp">TU CASA COMO LA SOÑASTE</h1>
      <div class="boton animated infinite pulse">
       <a href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg">CONTACTANOS</a>
@@ -32,8 +36,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="img/electro.jpeg"
-            class="img-responsive">
+            <img src="img/electro.jpeg" class="img-responsive">
           </div>
           <div class="col-md-6 text-center">
             <h1 class="tit" style="color: #000;">¿Eres mayorista, constructor o desarrollador inmobiliario?</h1>
@@ -51,8 +54,8 @@
   <div class="section" style="padding: 5% 0%; background: #919296;" >
     <div class="container">
       <section class="bienvenidos"> 
-        <h2 style="color: #fff;">Productos destacados</h2>
-        <h3 style="color: #fff;">¡Conoce los nuevos productos y aprovecha los descuentos!</h3>
+        <h2 style="color: #fff;" class="tit-pd">Productos destacados</h2>
+        <h3 style="color: #fff;" class="txt-pd">¡Conoce los nuevos productos y aprovecha los descuentos!</h3>
       </section>
 
       <section class="tabla">

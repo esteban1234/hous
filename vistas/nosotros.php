@@ -19,6 +19,10 @@
       </figure>
     </div>
 
+    <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div> 
+
     <h1 class="animated bounceInUp">Adquiere lo más moderno en electrodomésticos y línea blanca
 
 </h1>
@@ -31,9 +35,9 @@
 <div class="section" style="padding: 5% 0%; background: #919296;" >
     <div class="container">
       <section class="bienvenidos"> 
-        <h2 style="color: #fff;">¿Quiénes Somos?</h2>
+        <h2 style="color: #fff;" class="tit-qs">¿Quiénes Somos?</h2>
         <hr class="none">
-        <h3 style="color: #fff;">Somos una tienda con presencia dedicada al Comercio al por mayor de electrodomésticos y aparatos de línea blanca, trabajando con miles de vendedores nacionales e internacionales. Queremos hacer tu vida más sencilla, tú solo preocúpate por comprar y nosotros nos encargamos de lo demás.</h3>
+        <h3 style="color: #fff;" class="txt-qs">Somos una tienda con presencia dedicada al Comercio al por mayor de electrodomésticos y aparatos de línea blanca, trabajando con miles de vendedores nacionales e internacionales. Queremos hacer tu vida más sencilla, tú solo preocúpate por comprar y nosotros nos encargamos de lo demás.</h3>
       </section>
     </div> 
 </div>
@@ -41,46 +45,46 @@
 <div class="section" style="padding: 5% 0%;" >
     <div class="container">
       <section class="bienvenidos"> 
-        <h2 style="color: #000;">¿Qué tenemos para ti?</h2>
-        <hr class="none"> <br><br>
+        <h2 style="color: #000;" class="tit-tt">¿Qué tenemos para ti?</h2>
+        <hr class="none"> <br class="delete-br"><br class="delete-br">
         
         <div class="row">
-          <div class="col-md-3 ">
+          <div class="col-sm-6 col-md-3 cont-all">
             <div class="imge ">
               <img src="../img/truck.png" class="img-responsive">
             </div>
-            <h2 class="text-center">RAPIDEZ</h2>
+            <h2 class="text-center tit-all">RAPIDEZ</h2>
             <p class="text-center">Corremos para entregar tu pedido.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3 cont-all">
             <div class="imge ">
               <img src="../img/delivery-man.png" class="img-responsive">
             </div>
-            <h2 class="text-center">DEVOLUCIONES</h2>
+            <h2 class="text-center tit-all">DEVOLUCIONES</h2>
             <p class="text-center">Devuélvelo fácil y gratis.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3 cont-all">
             <div class="imge ">
               <img src="../img/online-support.png" class="img-responsive">
             </div>
-            <h2 class="text-center">ACOMPAÑAMIENTO</h2>
+            <h2 class="text-center tit-all">ACOMPAÑAMIENTO</h2>
             <p class="text-center">Atención al cliente y notificaciones disponibles en todo el proceso de compra.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3 cont-all">
             <div class="imge ">
               <img src="../img/shield.png" class="img-responsive">
             </div>
-            <h2 class="text-center">SEGURIDAD</h2>
+            <h2 class="text-center tit-all">SEGURIDAD</h2>
             <p class="text-center">Tus compras 100% protegidas.</p>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-3 col-md-offset-5">
+          <div class="col-sm-12 col-md-3 cont-all col-md-offset-5">
             <div class="imge ">
               <img src="../img/gift-card.png" class="img-responsive">
             </div>
-            <h2 class="text-center">MÉTODOS DE PAGO</h2>
+            <h2 class="text-center tit-all">MÉTODOS DE PAGO</h2>
             <p class="text-center">Tenemos distitntas formas de pago, desde tarjetas de débito o crédito hasta pago en efectivo.</p>
           </div>          
         </div>

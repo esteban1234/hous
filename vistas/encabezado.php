@@ -1,4 +1,5 @@
-Comercio al por mayor de electrodomésticos menores y aparatos de línea blanca.<!DOCTYPE html>
+<!DOCTYPE html>
+<!-- Comercio al por mayor de electrodomésticos menores y aparatos de línea blanca. -->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">

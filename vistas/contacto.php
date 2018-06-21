@@ -17,8 +17,12 @@
       
       <figure class="logo pull-right animated bounceInRight">
         <img src="../img/hous.png" class="img-responsive" alt="HOUS">
-      </figure>
+      </figure> 
     </div>
+
+    <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div> 
 
     <h1 class="animated bounceInUp">Hemos renovado nuestro centro de Ayuda</h1>
     <p class="animated bounceInUp">Podrás encontrar todas tus respuestas aquí</p>
@@ -29,54 +33,58 @@
 <section id="contact" class="content-section text-center" style="padding: 5% 0%;">
         <div class="contact-section">
             <div class="container">
-              <h2>Formulario de Contacto</h2>
+              <h2 class="tit-fc">Formulario de Contacto</h2>
               <p>No te preocupes, en caso de no conseguir tu respuesta todavía podrás contactarnos</p> <br><br>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                  <form class="form-horizontal">
+                  <form class="form-horizontal" onSubmit="return false">
+                    <div id="_AJAX_PRE_"></div>
                     <div class="form-group">
                       <label for="exampleInputName2">Nombre</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu nombre">
+                      <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputName2">Teléfono</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu teléfono">
+                      <input type="text" class="form-control" id="txtTELEFONO" onkeypress="return aceptNum(event)" maxlength="10" placeholder="Escribe tu teléfono">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail2">Correo</label>
-                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Escribe tu correo">
+                      <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu correo">
                     </div>
                     <div class="form-group ">
                       <label for="exampleInputText">Comentario</label>
-                     <textarea  class="form-control" placeholder="Escribe tu comentario"></textarea> 
+                     <textarea  id="txtCOMENTARIO" class="form-control" placeholder="Escribe tu comentario"></textarea> 
+
                     </div>
-                    <button type="submit" class="btn btn-default">Enviar mensaje</button>
+                    
+                    <button type="submit" class="btn btn-default" onclick="sendCORREO()">Enviar mensaje</button>
                   </form>
 
 
                     
                 </div>
-              </div> <br><br>
+              </div> <br class="delete-br"><br class="delete-br">
               <div class="section">
-                <h3>Datos de la empresa</h3>
+                <h3 class="tit-de">Datos de la empresa</h3>
         <div class="row">
-          <div class="col-md-3">
-            <h2 class="text-center">
+          <div class="col-sm-6 col-md-3">
+            <h2 class="text-center tit-dtch">
               <i class="fas fa-map-marker-alt fa-fw"></i> Dirección</h2>
             <p class="text-center">C. Ixhuatan #292 MZ 4 LT.11. Col. Centenario Tuchtlan, Tuxtla Gutierrez, Chiapas. C.P. 29025.</p>
           </div>
-          <div class="col-md-3">
-            <h2 class="text-center">
+          <div class="col-sm-6 col-md-3">
+            <h2 class="text-center tit-dtch">
               <i class="fas fa-phone fa-fw"></i> Teléfono</h2>
             <p class="text-center">PENDIENTE</p>
           </div>
-          <div class="col-md-3">
-            <h2 class="text-center">
+          <div class="clearfix visible-sm-block"></div>
+          <div class="col-sm-6 col-md-3">
+            <h2 class="text-center tit-dtch">
               <i class="far fa-envelope fa-fw"></i> Correo</h2>
             <p class="text-center">info@comercializadorahous.com</p>
           </div>
-          <div class="col-md-3">
-            <h2 class="text-center">
+          <div class="col-sm-6 col-md-3">
+            <h2 class="text-center tit-dtch">
               <i class="far fa-clock fa-fw"></i> Horario</h2>
             <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
           </div>
@@ -95,6 +103,13 @@
   
 	
 <?php include 'pie.php' ?>
+<script>
+  var nav4 = window.Event ? true : false;
+  function aceptNum(evt){
+    var key = nav4 ? evt.which : evt.keyCode;
+    return (key <= 13 || (key>= 48 && key <= 57));
+}
+</script>
 <script src="../js/jquery.js"></script>
 <script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>
